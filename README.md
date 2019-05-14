@@ -8,13 +8,13 @@
 > npm i yox-template-loader
 
 ```js
-  // webpack.config.js
-  rules: [
-    {
-      test: /\/src\/.*?\.html$/,
-      use: [ {
-        loader: 'yox-template-loader'
-      }]
-    }
-  ]
+// webpack.config.js
+rules: [
+  {
+    test: /\/src\/.*?\.html$/,
+    use: [ {
+      loader: 'yox-template-loader'
+    }]
+  }
+]
 ```
